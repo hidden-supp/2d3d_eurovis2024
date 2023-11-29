@@ -1,0 +1,2 @@
+"technique","mean_time","lowerBound_CI","upperBound_CI","corrected_CI","lowerBound_CI_corr","upperBound_CI_corr"
+"Drag-Along - Animated",4.38930092592593,1.43862539473521,10.8014916524606,0.975,1.14750519157116,12.0777533585812

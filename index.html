@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Supplemental material</title>
+    <link rel="stylesheet" href="bulma.min.css" />
+    <meta charset="utf-8" />
+    <style type="text/css">
+      hr.solid {
+        border-top: 1px solid #bbb;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container" id="container_titles">
+        <h1 class="title is-2">
+          An Empirical Evaluation of Interactive Transitions between 2D Top-down
+          and 3D First-person Map views
+        </h1>
+        <h1 class="subtitle is-4">
+          Submitted to CHI 2024 - Supplemental material
+        </h1>
+        <figure class="image">
+          <img src="images/teaser.png" />
+        </figure>
+        <!-- <hr class="solid" /> -->
+      </div>
+    </section>
+    <section class="section">
+      <div class="container" id="container_pilot_div">
+        <h2 class="title is-3">Techniques demo</h2>
+        <div class="block">
+          <a href="./demo/index_supp.html">
+            Demo of the techniques and transitions tested in the user study</a
+          >
+        </div>
+        <h2 class="title is-3">User Study</h2>
+        <div class="block">
+          <p>
+            <a href="./data/allTrials.csv" download>Trials Data</a> <br />
+            <a href="./data/alldifficulty.csv" download>Difficulty data</a>
+            <br />
+            R scripts:
+            <a href="./scripts/time.R" download
+              >Script for overall time analysis</a
+            ><br />
+            <a href="./scripts/errorCount_.R" download
+              >Script for overall error count analysis</a
+            ><br />
+            <a href="./scripts/errorMeasure_.R" download
+              >Script for overall error measure analysis</a
+            ><br />
+            <a href="./scripts/difficulty_.R" download
+              >Script for overall difficulty analysis</a
+            ><br />
+            <b>orderTechnique*.R</b> scripts for comparing between all technique
+            x transition order combinations <br />
+            <b>techniqueCamera*.R</b> scripts for comparing between all
+            technique x camera transition combinations <br />
+            <b>orderCamera*.R</b> scripts for comparing between all transition
+            order x camera transition combinations <br />
+            <b>allComparisions*.R</b> scripts for comparing between all
+            technique x camera transition x transition order combinations <br />
+            These scripts use the script:
+            <a href="./scripts/CI-Functions-Bonferroni.R"
+              >CI Functions Bonferroni</a
+            >
+            by Pierre Dragicevic and Anastasia Bezerianos.
+          </p>
+        </div>
+        <h2 class="title is-3">Results</h2>
+        <a href="./results.html" download
+          >Result graphs for all the above scripts</a
+        >
+      </div>
+    </section>
+    <!-- <canvas id= "olic_canvas" width="1024" height="1024"></canvas> -->
+    <div id="main" class="grid-container"></div>
+    <!-- <script src="index.js"></script> -->
+  </body>
+</html>

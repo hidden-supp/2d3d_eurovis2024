@@ -1,0 +1,2 @@
+"Camera Animation","mean_time","lowerBound_CI","upperBound_CI","corrected_CI","lowerBound_CI_corr","upperBound_CI_corr"
+"RF-ZF",0.0239345022581534,0.0602474065798657,-0.00918809292050939,0.975,0.0660387865995817,-0.0142166452339091
